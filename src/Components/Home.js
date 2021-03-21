@@ -76,11 +76,11 @@ export default function Home(props) {
       <div className='input__section'>
         <div className='usr_inp'>
           <label htmlFor='fromDate'>FROM DATE</label>
-          <input name='fromDate' value={fromDate} />
+          <input type='date' name='fromDate' value={fromDate} />
         </div>
         <div className='usr_inp'>
           <label htmlFor='toDate'>TO DATE</label>
-          <input name='toDate' value={toDate} />
+          <input type='date' name='toDate' value={toDate} />
         </div>
 
         <div className='usr_inp'>
