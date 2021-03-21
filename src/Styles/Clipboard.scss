@@ -1,0 +1,31 @@
+.clipboard__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.editable__inp {
+  display: flex;
+  margin: 2rem;
+
+  & input {
+    margin: 2rem;
+  }
+  & button {
+    margin: 2rem;
+  }
+  flex-wrap: wrap;
+}
+
+.uneditable__inp {
+  display: flex;
+  margin: 2rem;
+  & input {
+    margin: 2rem;
+  }
+  & button {
+    margin: 2rem;
+  }
+  flex-wrap: wrap;
+}

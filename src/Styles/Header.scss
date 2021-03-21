@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 41%; */
+  margin: auto;
+  background-color: bisque;
+
+  & div {
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+  }
+}
+
+.selected__item {
+  text-decoration: underline;
+}
